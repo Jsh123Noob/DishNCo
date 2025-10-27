@@ -1,0 +1,68 @@
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 250px;
+    background: #17320b;
+    color: white;
+    transform: translateX(-100%);
+    transition: transform 0.4s ease;
+    z-index: 1000;
+    padding: 1rem;
+}
+
+.sidebar.open {
+    transform: translateX(0.10%);
+}
+
+.toggle-btn {
+    position: fixed;
+    top: 25px;
+    left: 15px;
+    background: hsla(101, 54%, 23%, 0.808);
+    color: white;
+    border: none;
+    padding: 10px 14px;
+    font-size: 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    z-index: 1100;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 900;
+}
+
+.close-btn {
+    background: transparent;
+    color: white;
+    font-size: 28px;
+    border: none;
+    cursor: pointer;
+    float: right;
+}
+
+.sidebar-menu {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.sidebar-menu li {
+    padding: 10px;
+    list-style: none;
+}
+
+.sidebar-menu li:hover {
+
+    background: #71a05d;
+    transition: 0.2s ease-in;
+}
