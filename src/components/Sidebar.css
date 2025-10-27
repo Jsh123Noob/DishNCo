@@ -10,25 +10,26 @@
     transition: transform 0.4s ease;
     z-index: 1000;
     padding: 1rem;
+    cursor: pointer;
 }
 
 .sidebar.open {
-    transform: translateX(0.10%);
+    transform: translateX(0);
 }
 
 .toggle-btn {
-    position: fixed;
-    top: 25px;
-    left: 15px;
     background: hsla(101, 54%, 23%, 0.808);
     color: white;
     border: none;
-    padding: 10px 14px;
-    font-size: 20px;
+    padding: 8px 12px;
+    font-size: 18px;
     border-radius: 8px;
     cursor: pointer;
-    z-index: 1100;
+    margin-right: 1rem;
+    /* space between button and Hello User */
+    align-self: center;
 }
+
 
 .overlay {
     position: fixed;
@@ -43,7 +44,7 @@
 .close-btn {
     background: transparent;
     color: white;
-    font-size: 28px;
+    font-size: 35px;
     border: none;
     cursor: pointer;
     float: right;

@@ -1,9 +1,27 @@
-.greet-title {
+.title-container {
     background-color: #17320b;
-    padding: 2rem;
-    padding-inline: 5rem;
+    padding: 2rem 2rem;
     color: white;
+    display: flex;
+    justify-content: space-between;
+    /* ensures the icon stays on right */
+    align-items: center;
+    /* vertically center all elements */
+}
 
+.title-left {
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+}
+
+
+
+.material-symbols-outlined {
+    position: absolute;
+    right: 15px;
+    font-size: 1.9rem;
+    margin-right: 1rem;
 }
 
 .sub-title-container {
@@ -11,6 +29,6 @@
 }
 
 .sub-title-container p {
-    font-size: 1rem;
+    font-size: 2rem;
     font-style: italic;
 }
