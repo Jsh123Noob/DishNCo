@@ -2,4 +2,15 @@
     background-color: #17320b;
     padding: 2rem;
     padding-inline: 5rem;
+    color: white;
+
+}
+
+.sub-title-container {
+    padding-left: 2rem;
+}
+
+.sub-title-container p {
+    font-size: 1rem;
+    font-style: italic;
 }
