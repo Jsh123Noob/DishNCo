@@ -16,8 +16,8 @@ function Sidebar() {
 
 
             {/* Sidebar */}
-            {open && <div className="overlay" onClick={() => setOpen(false)}></div>}
 
+            {open && <div className="overlay" onClick={() => setOpen(false)}></div>}
             <div className={`sidebar ${open ? "open" : ""}`}>
 
 

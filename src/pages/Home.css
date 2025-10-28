@@ -4,9 +4,8 @@
     color: white;
     display: flex;
     justify-content: space-between;
-    /* ensures the icon stays on right */
     align-items: center;
-    /* vertically center all elements */
+
 }
 
 .title-left {
@@ -31,4 +30,8 @@
 .sub-title-container p {
     font-size: 2rem;
     font-style: italic;
+}
+
+.material-symbols-outlined {
+    cursor: pointer;
 }
