@@ -1,3 +1,13 @@
+#App for for chat system
+- this app can help to communicate each other 
+- mockup or sample of how chat system works
+
+
+
+
+
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
