@@ -1,4 +1,4 @@
-#App for for chat system
+# App for for chat system
 - this app can help to communicate each other 
 - mockup or sample of how chat system works
 
